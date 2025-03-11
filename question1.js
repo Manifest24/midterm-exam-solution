@@ -1,7 +1,7 @@
-// Function to filter even numbers from an array
-function filterEvenNumbers(numbers) {
-    return numbers.filter(num => num % 2 === 0);
+function countProperties(obj) {
+    return Object.keys(obj).length;
 }
 
-// Example usage
-console.log(filterEvenNumbers([1, 2, 3, 4, 5, 6])); // Output: [2, 4, 6]
+// Example usage:
+const exampleObject = { a: 1, b: 2, c: 3 };
+console.log(countProperties(exampleObject)); 
